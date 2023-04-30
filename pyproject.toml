@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "cypress-handson"
 version = "0.1.0"
-description = ""
+description = "Hands-on of Cypress"
 authors = ["aYukiYoshida <yuki.yoshida@access-company.com>"]
 license = "MIT"
 readme = "README.md"
