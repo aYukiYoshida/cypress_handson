@@ -1,4 +1,7 @@
 {
+  "name": "cypress_handson",
+  "version": "0.1.0",
+  "description": "Hands-on of Cypress",
   "dependencies": {
     "@testing-library/cypress": "^9.0.0",
     "cypress": "^12.11.0",
@@ -8,6 +11,10 @@
     "typescript": "^5.0.4"
   },
   "scripts": {
+    "prepare": "npm run prepare:poetry && npm run prepare:pre-commit",
+    "prepare:poetry": "poetry install",
+    "prepare:pre-commit": "poetry run pre-commit install",
+    "teseus": "poetry run teseus",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run"
   }

@@ -14,20 +14,12 @@ This repository manages codes for hands-on of [Cypress](https://docs.cypress.io/
 
    ```shell
    git clone git@github.com:aYukiYoshida/cypress_handson.git # via SSH
-   git submodule init && git submodule update teseus
    ```
 
 1. Install dependencies
 
    ```shell
-   poetry install
    npm install
-   ```
-
-1. (optional) Install pre-commit
-
-   ```shell
-   poetry run pre-commit install
    ```
 
 ## Usage
@@ -35,7 +27,7 @@ This repository manages codes for hands-on of [Cypress](https://docs.cypress.io/
 1. Run server in background.
 
    ```shell
-   poetry run teseus &
+   npm run teseus &
    ```
 
 1. Run testing
