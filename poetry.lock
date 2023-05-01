@@ -358,8 +358,10 @@ pyjwt = "^2.6.0"
 pyyaml = "^6.0"
 
 [package.source]
-type = "directory"
-url = "teseus"
+type = "git"
+url = "https://github.com/aYukiYoshida/teseus#0.1.0"
+reference = "HEAD"
+resolved_reference = "b3cb987bbff6a81d3793cea98d110859ed62e4b4"
 
 [[package]]
 name = "virtualenv"
@@ -384,14 +386,14 @@ test = ["covdefaults (>=2.3)", "coverage (>=7.2.3)", "coverage-enable-subprocess
 
 [[package]]
 name = "werkzeug"
-version = "2.3.1"
+version = "2.3.2"
 description = "The comprehensive WSGI web application library."
 category = "main"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "Werkzeug-2.3.1-py3-none-any.whl", hash = "sha256:69a4b8fcbb30a4c3fa81a5cebd961541273e4d222a4c08593b0b18312e14f64a"},
-    {file = "Werkzeug-2.3.1.tar.gz", hash = "sha256:2d35a28a75ae03727eae14ea7d13627c0f77aed6b9998441e6dae0b387f697fc"},
+    {file = "Werkzeug-2.3.2-py3-none-any.whl", hash = "sha256:b7b8bc1609f35ae8e45d48a9b58d7a4eb1e41eec148d37e977e5df6ebf3398b2"},
+    {file = "Werkzeug-2.3.2.tar.gz", hash = "sha256:2f3278e9ef61511cdf82cc28fc5da0f5b501dd8f01ecf5ef6a5d810048f68702"},
 ]
 
 [package.dependencies]
@@ -403,4 +405,4 @@ watchdog = ["watchdog (>=2.3)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "71fd39937f145540f7997bbb1f36ff379200de7952246e53c2f965d674b92a61"
+content-hash = "fcea1da14c26f3ed9f41eb502bdac5d4da5102c6093fa8428e99994fe8517b12"
